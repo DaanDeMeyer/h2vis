@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es5",
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "baseUrl": "src",
+        "paths": {
+            "*": ["typings/*", "*"]
+        },
+        "lib": [
+            "dom",
+            "es5",
+            "es6"
+        ]
+    }
+}
