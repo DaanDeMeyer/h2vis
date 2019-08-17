@@ -23,6 +23,12 @@ H2Vis is an application that visualizes the inner workings of HTTP/2. (Developed
 
 - The H2Vis website looks for the output files produced by h2vis-cli.js in the traces/ directory in the root of the website (next to index.html and bundle.js)
 
+# Screenshots
+
+![Priority Tree](images/tree.png)
+
+![Timeline](images/timeline.png)
+
 # Development
 
 - To start a local development server which loads traces from the traces/ directory in the root of this repository execute: npm/yarn run dev
