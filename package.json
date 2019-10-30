@@ -30,7 +30,7 @@
         "prettier": "^1.5.3",
         "typescript": "^2.4.1",
         "webpack": "^3.3.0",
-        "webpack-dev-server": "^2.5.1"
+        "webpack-dev-server": "^3.1.11"
     },
     "scripts": {
         "cli": "webpack --config webpack.cli.js",
