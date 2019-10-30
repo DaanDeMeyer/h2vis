@@ -864,6 +864,14 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+create-react-class@^15.6.0:
+  version "15.6.3"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
 cross-spawn@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -1981,65 +1989,6 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inferno-compat@^3.7.1:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/inferno-compat/-/inferno-compat-3.8.2.tgz#c8d3190c0da0689ccf7578c4335441ac0367b80c"
-  dependencies:
-    inferno "3.8.2"
-    inferno-component "3.8.2"
-    inferno-create-class "3.8.2"
-    inferno-create-element "3.8.2"
-    inferno-shared "3.8.2"
-    inferno-transition-group "2.1.1"
-    inferno-vnode-flags "3.8.2"
-    rc-css-transition-group-modern "^2.1.6"
-
-inferno-component@3.8.2, inferno-component@^3.4.3:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/inferno-component/-/inferno-component-3.8.2.tgz#707c204afce19e8e88811758fbad019c0490b42c"
-  dependencies:
-    inferno "3.8.2"
-    inferno-shared "3.8.2"
-    inferno-vnode-flags "3.8.2"
-
-inferno-create-class@3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/inferno-create-class/-/inferno-create-class-3.8.2.tgz#779baa365e0c2e9c57644082f0411aee563bb41f"
-  dependencies:
-    inferno-component "3.8.2"
-    inferno-shared "3.8.2"
-
-inferno-create-element@3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-3.8.2.tgz#3ac9475994b3a8ccb29370843196017d2f7e1f30"
-  dependencies:
-    inferno "3.8.2"
-    inferno-component "3.8.2"
-    inferno-shared "3.8.2"
-    inferno-vnode-flags "3.8.2"
-
-inferno-shared@3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-3.8.2.tgz#5668267f98ba2c4236de3db0b4276e40b032cab4"
-
-inferno-transition-group@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/inferno-transition-group/-/inferno-transition-group-2.1.1.tgz#067e9f6013354e1a9a18f74ca6092cf0059cf70e"
-  dependencies:
-    inferno "^3.4.3"
-    inferno-component "^3.4.3"
-
-inferno-vnode-flags@3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-3.8.2.tgz#ca6cfba996f70ca468bf621f1db4b8a3b4335c38"
-
-inferno@3.8.2, inferno@^3.4.3, inferno@^3.7.1:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-3.8.2.tgz#284ef2af52404c0d7aa0d14782464ad11ccc635b"
-  dependencies:
-    inferno-shared "3.8.2"
-    inferno-vnode-flags "3.8.2"
-
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -2276,6 +2225,10 @@ js-tokens@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -2419,6 +2372,12 @@ loose-envify@^1.0.0, loose-envify@^1.3.1:
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
     js-tokens "^3.0.0"
+
+loose-envify@^1.1.0, loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -3051,6 +3010,14 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
+prop-types@^15.5.10:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 prop-types@^15.5.8:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
@@ -3132,10 +3099,6 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
-rc-css-transition-group-modern@^2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/rc-css-transition-group-modern/-/rc-css-transition-group-modern-2.1.6.tgz#e34d63752110ee2ccf5185cd6ba4c774cfdf1bb7"
-
 rc@^1.1.7:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.1.tgz#2e03e8e42ee450b8cb3dce65be1bf8974e1dfd95"
@@ -3145,11 +3108,34 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-dom@15.6.1:
+  version "15.6.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.1.tgz#2cb0ed4191038e53c209eb3a79a23e2a4cf99470"
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.10"
+
+react-is@^16.8.1:
+  version "16.11.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
+
 react-treeview@^0.4.7:
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/react-treeview/-/react-treeview-0.4.7.tgz#f647e04f70496eb11fb0912c35187e80eb60d458"
   dependencies:
     prop-types "^15.5.8"
+
+react@15.6.1:
+  version "15.6.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
+  dependencies:
+    create-react-class "^15.6.0"
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.10"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -3634,8 +3620,8 @@ string_decoder@~1.0.3:
     safe-buffer "~5.1.0"
 
 stringstream@~0.0.4:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.6.tgz#7880225b0d4ad10e30927d167a1d6f2fd3b33a72"
 
 strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   version "3.0.1"
